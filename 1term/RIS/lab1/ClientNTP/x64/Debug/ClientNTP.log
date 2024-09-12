@@ -1,0 +1,4 @@
+﻿  ClientNTP.cpp
+C:\Users\nikit\Desktop\univer\4k1sem\RIS\lab1\ClientNTP\ClientNTP.cpp(63,24): warning C4244: =: преобразование "__int64" в "int", возможна потеря данных
+C:\Users\nikit\Desktop\univer\4k1sem\RIS\lab1\ClientNTP\ClientNTP.cpp(64,24): warning C4244: =: преобразование "__int64" в "int", возможна потеря данных
+  ClientNTP.vcxproj -> C:\Users\nikit\Desktop\univer\4k1sem\RIS\lab1\x64\Debug\ClientNTP.exe
