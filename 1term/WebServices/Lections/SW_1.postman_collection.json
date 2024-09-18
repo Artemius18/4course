@@ -1,0 +1,92 @@
+{
+	"info": {
+		"_postman_id": "a9bdfaa4-077b-41ab-aa32-3d401e84e491",
+		"name": "SW_1",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "29526666",
+		"_collection_link": "https://grey-equinox-203459.postman.co/workspace/5027af0d-96a0-4b6d-a25b-c9435dabd8fd/collection/29521585-a9bdfaa4-077b-41ab-aa32-3d401e84e491?action=share&source=collection_link&creator=29526666"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{mypc}}/api/WS_2",
+					"host": [
+						"{{mypc}}"
+					],
+					"path": [
+						"api",
+						"WS_2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "{{mypc}}/ssdsd.kns?RESULT=90",
+					"host": [
+						"{{mypc}}"
+					],
+					"path": [
+						"ssdsd.kns"
+					],
+					"query": [
+						{
+							"key": "RESULT",
+							"value": "90"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "{{mypc}}/ssdsd.kns?ADD=2",
+					"host": [
+						"{{mypc}}"
+					],
+					"path": [
+						"ssdsd.kns"
+					],
+					"query": [
+						{
+							"key": "ADD",
+							"value": "2"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "{{mypc}}/ssdsd.kns",
+					"host": [
+						"{{mypc}}"
+					],
+					"path": [
+						"ssdsd.kns"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

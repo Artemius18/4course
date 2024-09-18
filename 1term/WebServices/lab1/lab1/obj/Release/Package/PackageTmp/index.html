@@ -1,0 +1,84 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>ПВС-1</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <div>
+        <h2>ПВС-1</h2>
+        <button onclick="sendGetRequest()">GET</button>
+        <button onclick="sendPostRequest()">POST</button>
+        <button onclick="sendPutRequest()">PUT</button>
+        <button onclick="sendDeleteRequest()">DELETE</button>
+        <pre id="result"></pre>
+    </div>
+
+    <script>
+        const resultElement = $('#result');
+
+        const url = 'http://localhost:51027/lab1.PAF';
+        function sendGetRequest() {
+            $.ajax({
+                type: 'GET',
+                url: url,
+                success: function (data) {
+                    resultElement.text("Result: " + data.result);
+                },
+                error: function (error) {
+                    resultElement.text(error.responseText);
+                    console.error('GET Request Error:', error);
+                }
+            });
+        }
+
+        function sendPostRequest() {
+            const resultParameter = prompt('Введите параметр RESULT:');
+            if (resultParameter !== null) {
+                $.ajax({
+                    type: 'POST',
+                    url: url + `?result=${resultParameter}`,
+                    success: function () {
+                        resultElement.text('POST Request Successful');
+                    },
+                    error: function (error) {
+                        resultElement.text(error.responseText);
+                        console.error('POST Request Error:', error);
+                    }
+                });
+            }
+        }
+
+        function sendPutRequest() {
+            const addParameter = prompt('Введите параметр ADD:');
+            if (addParameter !== null) {
+                $.ajax({
+                    type: 'PUT',
+                    url: url + `?add=${addParameter}`,
+                    success: function () {
+                        resultElement.text('PUT Request Successful');
+                    },
+                    error: function (error) {
+                        resultElement.text(error.responseText);
+                        console.error('PUT Request Error:', error);
+                    }
+                });
+            }
+        }
+
+        function sendDeleteRequest() {
+            $.ajax({
+                type: 'DELETE',
+                url: url,
+                success: function () {
+                    resultElement.text('DELETE Request Successful');
+                },
+                error: function (error) {
+                    resultElement.text(error.responseText);
+                    console.error('DELETE Request Error:', error);
+                }
+            });
+        }
+    </script>
+</body>
+</html>
