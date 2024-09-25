@@ -1,3 +1,3 @@
 ﻿  ServerU.cpp
-C:\Users\nikit\Desktop\univer\4k1sem\RIS\lab1\lab1\ServerU.cpp(18,9): warning C4101: averageCorrection: неиспользованная локальная переменная
-  lab1.vcxproj -> C:\Users\nikit\Desktop\univer\4k1sem\RIS\lab1\x64\Debug\ServerU.exe
+E:\BSTU\4course\1term\RIS\lab1\lab1\ServerU.cpp(18,9): warning C4101: averageCorrection: неиспользованная локальная переменная
+  lab1.vcxproj -> E:\BSTU\4course\1term\RIS\lab1\x64\Debug\ServerU.exe

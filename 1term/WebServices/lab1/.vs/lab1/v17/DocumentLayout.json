@@ -3,16 +3,14 @@
   "WorkspaceRootPath": "E:\\BSTU\\4course\\1term\\WebServices\\lab1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A7992146-E38F-4CC3-A5BF-7CEB65F4A969}|lab1\\lab1.csproj|E:\\BSTU\\4course\\1term\\WebServices\\lab1\\lab1\\pafhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A7992146-E38F-4CC3-A5BF-7CEB65F4A969}|lab1\\lab1.csproj|e:\\bstu\\4course\\1term\\webservices\\lab1\\lab1\\pafhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A7992146-E38F-4CC3-A5BF-7CEB65F4A969}|lab1\\lab1.csproj|solutionrelative:lab1\\pafhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A7992146-E38F-4CC3-A5BF-7CEB65F4A969}|lab1\\lab1.csproj|e:\\bstu\\4course\\1term\\webservices\\lab1\\lab1\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{A7992146-E38F-4CC3-A5BF-7CEB65F4A969}|lab1\\lab1.csproj|solutionrelative:lab1\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|lab1||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A7992146-E38F-4CC3-A5BF-7CEB65F4A969}|lab1\\lab1.csproj|e:\\bstu\\4course\\1term\\webservices\\lab1\\lab1\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A7992146-E38F-4CC3-A5BF-7CEB65F4A969}|lab1\\lab1.csproj|solutionrelative:lab1\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A7992146-E38F-4CC3-A5BF-7CEB65F4A969}|lab1\\lab1.csproj|e:\\bstu\\4course\\1term\\webservices\\lab1\\lab1\\||{B270807C-D8C6-49EB-8EBE-8E8D566637A1}|5e9a8ac2-4f34-4521-858f-4c248ba31532"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,32 +20,18 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Web.config",
-              "DocumentMoniker": "E:\\BSTU\\4course\\1term\\WebServices\\lab1\\lab1\\Web.config",
-              "RelativeDocumentMoniker": "lab1\\Web.config",
-              "ToolTip": "E:\\BSTU\\4course\\1term\\WebServices\\lab1\\lab1\\Web.config",
-              "RelativeToolTip": "lab1\\Web.config",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAABbAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2024-09-17T09:08:27.928Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "index.html",
-              "DocumentMoniker": "E:\\BSTU\\4course\\1term\\WebServices\\lab1\\lab1\\index.html",
-              "RelativeDocumentMoniker": "lab1\\index.html",
-              "ToolTip": "E:\\BSTU\\4course\\1term\\WebServices\\lab1\\lab1\\index.html",
-              "RelativeToolTip": "lab1\\index.html",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAABQAAAAjAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-09-17T05:12:58.16Z",
+              "Title": "lab1",
+              "DocumentMoniker": "E:\\BSTU\\4course\\1term\\WebServices\\lab1\\lab1\\lab1.csproj",
+              "RelativeDocumentMoniker": "lab1\\lab1.csproj",
+              "ToolTip": "E:\\BSTU\\4course\\1term\\WebServices\\lab1\\lab1\\lab1.csproj",
+              "RelativeToolTip": "lab1\\lab1.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-09-22T08:44:25.33Z",
               "EditorCaption": ""
             },
             {
@@ -58,7 +42,7 @@
               "RelativeDocumentMoniker": "lab1\\PAFHandler.cs",
               "ToolTip": "E:\\BSTU\\4course\\1term\\WebServices\\lab1\\lab1\\PAFHandler.cs",
               "RelativeToolTip": "lab1\\PAFHandler.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAgAAAA1AAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-08T17:47:22.743Z",
               "EditorCaption": ""
