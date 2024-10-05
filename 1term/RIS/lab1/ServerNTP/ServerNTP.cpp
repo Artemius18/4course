@@ -7,13 +7,13 @@ DWORD WINAPI SyncGlobalUnixTime(void* lpar)
 	SOCKADDR_IN server;
 
 	server.sin_family = AF_INET;
-	server.sin_addr.s_addr = inet_addr("178.124.134.106");//88.147.254.229 178.124.134.106
+	server.sin_addr.s_addr = inet_addr("178.124.134.106");
 	server.sin_port = htons(123);
 
 	int h = CLOCKS_PER_SEC;
 	clock_t t = clock();
-	int d = 613608 * 3600;	// 613608 * 3600 сек NTP - UNIX
-	time_t ttime; time(&ttime); // количество сек с 1.1.1970:00:00
+	int d = 613608 * 3600;	// разница в сек. между временем ntp и временем UNIX (1970-1900 годы)
+	time_t ttime; time(&ttime); //время UNIX (сек. с 1 января 1970 года)
 
 	NTP_packet out_buf, in_buf;
 	if (WSAStartup(MAKEWORD(2, 0), &wsaData) != 0) throw WSAGetLastError();
@@ -22,6 +22,8 @@ DWORD WINAPI SyncGlobalUnixTime(void* lpar)
 	{
 		ZeroMemory(&out_buf, sizeof(out_buf));
 		ZeroMemory(&in_buf, sizeof(in_buf));
+
+		// заполнение полей заголовка NTP-запроса
 		out_buf.head[0] = 0x1B;
 		out_buf.head[1] = 0x00;
 		out_buf.head[2] = 4;
@@ -34,10 +36,12 @@ DWORD WINAPI SyncGlobalUnixTime(void* lpar)
 			setsockopt(s, SOL_SOCKET, SO_RCVTIMEO, (char*)&timeout, sizeof(DWORD));
 
 			int lenout = 0, lenin = 0, lensockaddr = sizeof(server);
+
+			//  локальное время отправки запроса
 			clock_t qtime = clock();
 
 
-
+			//отправляем запрос на ntp-сервер
 			if ((lenout = sendto(s, (char*)&out_buf, sizeof(out_buf), NULL, (sockaddr*)&server, sizeof(server))) == SOCKET_ERROR)
 				throw GetLastError(WSAGetLastError());
 
@@ -47,14 +51,13 @@ DWORD WINAPI SyncGlobalUnixTime(void* lpar)
 
 
 			clock_t transmissionTime = clock() - qtime;
-			DWORD64 localUnixTime = GetLocalUnixTime();
+			DWORD64 localUnixTime = GetLocalUnixTime(); //сек. с 1 явн. 1970 
 
 			in_buf.TransmitTimestamp[0] = ntohl(in_buf.TransmitTimestamp[0]) - d;
 			in_buf.OriginateTimestamp[0] = ntohl(in_buf.OriginateTimestamp[0]) - d;
 			in_buf.TransmitTimestamp[1] = ntohl(in_buf.TransmitTimestamp[1]);
 			in_buf.OriginateTimestamp[1] = ntohl(in_buf.OriginateTimestamp[1]);
 
-			//считаем время обработки запроса
 			tms = (DWORD64)((1000.0 * ((double)(in_buf.TransmitTimestamp[1]) / (double)0xffffffff)) + (DWORD64)in_buf.TransmitTimestamp[0] * 1000);	// мс
 			oms = (DWORD64)((1000.0 * ((double)(in_buf.OriginateTimestamp[1]) / (double)0xffffffff)) + (DWORD64)in_buf.OriginateTimestamp[0] * 1000);	// мс
 
@@ -63,14 +66,15 @@ DWORD WINAPI SyncGlobalUnixTime(void* lpar)
 
 			GETSINCHRO* t = (GETSINCHRO*)lpar;
 			EnterCriticalSection(&csServerTime);
-			lastSync = clock();
-			t->mTime = (DWORD64)tms;
+			lastSync = clock(); //время последней синхронизации
+			t->mTime = (DWORD64)tms; //обновляем глобальное время сервера
 			LeaveCriticalSection(&csServerTime);
 
 			cout << "синхронизация NTP c глобальным" << endl;
 
 			cout << "локальное UNIX время: " << localUnixTime << " Глобальное NTP: " << tms << endl;
-
+			
+			
 			if (tms > localUnixTime)
 			{
 				cout << "Глобальное больше на " << tms - localUnixTime << endl;
@@ -139,8 +143,7 @@ int main()
 
 			EnterCriticalSection(&csServerTime);
 			int delta = clock() - lastSync;
-
-			//время + тик синх - время клиента
+			//глобальное время сервера в сек. + время с последней синхронизации - время клиента
 			ss.corrTime = ExTime.mTime + delta - gs.mTime;
 			LeaveCriticalSection(&csServerTime);
 
@@ -161,36 +164,3 @@ int main()
 	DeleteCriticalSection(&csServerTime);
 	return 0;
 }
-
-
-//int main()
-//{
-//	// Инициализация Winsock
-//	WSADATA wsaData;
-//	if (WSAStartup(MAKEWORD(2, 2), &wsaData) != 0) {
-//		std::cerr << "Ошибка WSAStartup: " << WSAGetLastError() << std::endl;
-//		return 1;
-//	}
-//
-//	const char* ntp_server = "ntp3.ntp-servers.net"; // Имя NTP сервера
-//	struct addrinfo hints = { 0 };
-//	struct addrinfo* result = NULL;
-//
-//	hints.ai_family = AF_INET; // Используем IPv4
-//	hints.ai_socktype = SOCK_DGRAM; // UDP сокет
-//	hints.ai_protocol = IPPROTO_UDP; // Протокол UDP
-//
-//	// Разрешение доменного имени в IP-адрес
-//	int ret = getaddrinfo(ntp_server, "123", &hints, &result);
-//
-//	// Преобразуем IP-адрес в строку и выводим его
-//	char ipStr[INET_ADDRSTRLEN];
-//	inet_ntop(AF_INET, &(((struct sockaddr_in*)result->ai_addr)->sin_addr), ipStr, INET_ADDRSTRLEN);
-//
-//	std::cout << "IP-адрес NTP сервера " << ntp_server << ": " << ipStr << std::endl;
-//
-//	// Очистка Winsock
-//	WSACleanup();
-//
-//	return 0;
-//}

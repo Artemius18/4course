@@ -14,7 +14,7 @@ int main()
 		throw GetLastError(WSAGetLastError());
 
 	while (true) {
-		int TC = 1000;
+		int TC = 14000;
 		int maxcorr = 0, mincorr = INT_MAX;
 		__int64 mcorr = 0;
 		__int64 mCcOs = 0;
@@ -47,11 +47,10 @@ int main()
 			for (int i = 0; i < 10; i++)
 			{
 				Sleep(TC);
-				//посылаем серверу запрос со своим временем
+
 				ClientTime = gs.mTime = (DWORD64)ClientTime + TC;
 				sendto(clientSocket, (char*)&gs, sizeof(gs), 0, (sockaddr*)&serverParameters, sizeof(serverParameters));
 
-				//получаем с сервера корректировку
 				int lc = sizeof(serverParameters);
 				if ((recvfrom(clientSocket, (char*)&ss, sizeof(ss), NULL, (sockaddr*)&serverParameters, &lc)) == SOCKET_ERROR)
 					throw GetLastError(WSAGetLastError());

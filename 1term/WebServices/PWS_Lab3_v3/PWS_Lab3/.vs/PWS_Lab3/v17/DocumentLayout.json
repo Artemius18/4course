@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\BSTU\\4course\\1term\\WebServices\\PWS_Lab3_v3\\PWS_Lab3\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E203B72F-5A6E-44F0-BFC4-ED82B21847CA}|PWS_Lab3\\PWS_Lab3.csproj|e:\\bstu\\4course\\1term\\webservices\\pws_lab3_v3\\pws_lab3\\pws_lab3\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E203B72F-5A6E-44F0-BFC4-ED82B21847CA}|PWS_Lab3\\PWS_Lab3.csproj|solutionrelative:pws_lab3\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E203B72F-5A6E-44F0-BFC4-ED82B21847CA}|PWS_Lab3\\PWS_Lab3.csproj|e:\\bstu\\4course\\1term\\webservices\\pws_lab3_v3\\pws_lab3\\pws_lab3\\scripts\\formvalidation.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{E203B72F-5A6E-44F0-BFC4-ED82B21847CA}|PWS_Lab3\\PWS_Lab3.csproj|solutionrelative:pws_lab3\\scripts\\formvalidation.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E203B72F-5A6E-44F0-BFC4-ED82B21847CA}|PWS_Lab3\\PWS_Lab3.csproj|e:\\bstu\\4course\\1term\\webservices\\pws_lab3_v3\\pws_lab3\\pws_lab3\\scripts\\inputsvalidation.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{E203B72F-5A6E-44F0-BFC4-ED82B21847CA}|PWS_Lab3\\PWS_Lab3.csproj|solutionrelative:pws_lab3\\scripts\\inputsvalidation.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E203B72F-5A6E-44F0-BFC4-ED82B21847CA}|PWS_Lab3\\PWS_Lab3.csproj|e:\\bstu\\4course\\1term\\webservices\\pws_lab3_v3\\pws_lab3\\pws_lab3\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E203B72F-5A6E-44F0-BFC4-ED82B21847CA}|PWS_Lab3\\PWS_Lab3.csproj|solutionrelative:pws_lab3\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E203B72F-5A6E-44F0-BFC4-ED82B21847CA}|PWS_Lab3\\PWS_Lab3.csproj|e:\\bstu\\4course\\1term\\webservices\\pws_lab3_v3\\pws_lab3\\pws_lab3\\models\\hateoas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E203B72F-5A6E-44F0-BFC4-ED82B21847CA}|PWS_Lab3\\PWS_Lab3.csproj|solutionrelative:pws_lab3\\models\\hateoas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\BSTU\\4course\\1term\\WebServices\\PWS_Lab3_v3\\PWS_Lab3\\PWS_Lab3\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "PWS_Lab3\\Views\\Home\\Index.cshtml",
+              "ToolTip": "E:\\BSTU\\4course\\1term\\WebServices\\PWS_Lab3_v3\\PWS_Lab3\\PWS_Lab3\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "PWS_Lab3\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAMAAAAAAAAAAAAAAAM8AAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-01T05:39:00.714Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "formValidation.js",
+              "DocumentMoniker": "E:\\BSTU\\4course\\1term\\WebServices\\PWS_Lab3_v3\\PWS_Lab3\\PWS_Lab3\\Scripts\\formValidation.js",
+              "RelativeDocumentMoniker": "PWS_Lab3\\Scripts\\formValidation.js",
+              "ToolTip": "E:\\BSTU\\4course\\1term\\WebServices\\PWS_Lab3_v3\\PWS_Lab3\\PWS_Lab3\\Scripts\\formValidation.js",
+              "RelativeToolTip": "PWS_Lab3\\Scripts\\formValidation.js",
+              "ViewState": "AQIAADsAAAAAAAAAAAAswEgAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-10-01T05:36:15.991Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "inputsValidation.js",
+              "DocumentMoniker": "E:\\BSTU\\4course\\1term\\WebServices\\PWS_Lab3_v3\\PWS_Lab3\\PWS_Lab3\\Scripts\\inputsValidation.js",
+              "RelativeDocumentMoniker": "PWS_Lab3\\Scripts\\inputsValidation.js",
+              "ToolTip": "E:\\BSTU\\4course\\1term\\WebServices\\PWS_Lab3_v3\\PWS_Lab3\\PWS_Lab3\\Scripts\\inputsValidation.js",
+              "RelativeToolTip": "PWS_Lab3\\Scripts\\inputsValidation.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAE4AAABNAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-10-01T05:36:16.433Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HATEOAS.cs",
+              "DocumentMoniker": "E:\\BSTU\\4course\\1term\\WebServices\\PWS_Lab3_v3\\PWS_Lab3\\PWS_Lab3\\Models\\HATEOAS.cs",
+              "RelativeDocumentMoniker": "PWS_Lab3\\Models\\HATEOAS.cs",
+              "ToolTip": "E:\\BSTU\\4course\\1term\\WebServices\\PWS_Lab3_v3\\PWS_Lab3\\PWS_Lab3\\Models\\HATEOAS.cs",
+              "RelativeToolTip": "PWS_Lab3\\Models\\HATEOAS.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-01T05:35:16.129Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "StudentController.cs",
+              "DocumentMoniker": "E:\\BSTU\\4course\\1term\\WebServices\\PWS_Lab3_v3\\PWS_Lab3\\PWS_Lab3\\Controllers\\StudentController.cs",
+              "RelativeDocumentMoniker": "PWS_Lab3\\Controllers\\StudentController.cs",
+              "ToolTip": "E:\\BSTU\\4course\\1term\\WebServices\\PWS_Lab3_v3\\PWS_Lab3\\PWS_Lab3\\Controllers\\StudentController.cs",
+              "RelativeToolTip": "PWS_Lab3\\Controllers\\StudentController.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAzwCgAAABtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-01T05:34:44.641Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

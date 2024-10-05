@@ -1,0 +1,166 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\4k1s\\WS\\PWS_Lab3_v3\\PWS_Lab3\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|PWS_Lab3||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E203B72F-5A6E-44F0-BFC4-ED82B21847CA}|PWS_Lab3\\PWS_Lab3.csproj|D:\\4k1s\\WS\\PWS_Lab3_v3\\PWS_Lab3\\pws_lab3\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{E203B72F-5A6E-44F0-BFC4-ED82B21847CA}|PWS_Lab3\\PWS_Lab3.csproj|solutionrelative:pws_lab3\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E203B72F-5A6E-44F0-BFC4-ED82B21847CA}|PWS_Lab3\\PWS_Lab3.csproj|D:\\4k1s\\WS\\PWS_Lab3_v3\\PWS_Lab3\\pws_lab3\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E203B72F-5A6E-44F0-BFC4-ED82B21847CA}|PWS_Lab3\\PWS_Lab3.csproj|solutionrelative:pws_lab3\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E203B72F-5A6E-44F0-BFC4-ED82B21847CA}|PWS_Lab3\\PWS_Lab3.csproj|D:\\4k1s\\WS\\PWS_Lab3_v3\\PWS_Lab3\\pws_lab3\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E203B72F-5A6E-44F0-BFC4-ED82B21847CA}|PWS_Lab3\\PWS_Lab3.csproj|solutionrelative:pws_lab3\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E203B72F-5A6E-44F0-BFC4-ED82B21847CA}|PWS_Lab3\\PWS_Lab3.csproj|D:\\4k1s\\WS\\PWS_Lab3_v3\\PWS_Lab3\\pws_lab3\\controllers\\errorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E203B72F-5A6E-44F0-BFC4-ED82B21847CA}|PWS_Lab3\\PWS_Lab3.csproj|solutionrelative:pws_lab3\\controllers\\errorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E203B72F-5A6E-44F0-BFC4-ED82B21847CA}|PWS_Lab3\\PWS_Lab3.csproj|D:\\4k1s\\WS\\PWS_Lab3_v3\\PWS_Lab3\\pws_lab3\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E203B72F-5A6E-44F0-BFC4-ED82B21847CA}|PWS_Lab3\\PWS_Lab3.csproj|solutionrelative:pws_lab3\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E203B72F-5A6E-44F0-BFC4-ED82B21847CA}|PWS_Lab3\\PWS_Lab3.csproj|D:\\4k1s\\WS\\PWS_Lab3_v3\\PWS_Lab3\\pws_lab3\\model3.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "RelativeMoniker": "D:0:0:{E203B72F-5A6E-44F0-BFC4-ED82B21847CA}|PWS_Lab3\\PWS_Lab3.csproj|solutionrelative:pws_lab3\\model3.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E203B72F-5A6E-44F0-BFC4-ED82B21847CA}|PWS_Lab3\\PWS_Lab3.csproj|D:\\4k1s\\WS\\PWS_Lab3_v3\\PWS_Lab3\\pws_lab3\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E203B72F-5A6E-44F0-BFC4-ED82B21847CA}|PWS_Lab3\\PWS_Lab3.csproj|solutionrelative:pws_lab3\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E203B72F-5A6E-44F0-BFC4-ED82B21847CA}|PWS_Lab3\\PWS_Lab3.csproj|D:\\4k1s\\WS\\PWS_Lab3_v3\\PWS_Lab3\\pws_lab3\\model3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E203B72F-5A6E-44F0-BFC4-ED82B21847CA}|PWS_Lab3\\PWS_Lab3.csproj|solutionrelative:pws_lab3\\model3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E203B72F-5A6E-44F0-BFC4-ED82B21847CA}|PWS_Lab3\\PWS_Lab3.csproj|d:\\4k1s\\ws\\pws_lab3_v3\\pws_lab3\\pws_lab3\\||{B270807C-D8C6-49EB-8EBE-8E8D566637A1}|909d16b3-c8e8-43d1-a2b8-26ea0d4b6b57"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Web.config",
+              "DocumentMoniker": "D:\\4k1s\\WS\\PWS_Lab3_v3\\PWS_Lab3\\PWS_Lab3\\Web.config",
+              "RelativeDocumentMoniker": "PWS_Lab3\\Web.config",
+              "ToolTip": "D:\\4k1s\\WS\\PWS_Lab3_v3\\PWS_Lab3\\PWS_Lab3\\Web.config",
+              "RelativeToolTip": "PWS_Lab3\\Web.config",
+              "ViewState": "AgIAAGoAAAAAAAAAAAAAAIEAAACRAQAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-09-17T08:47:01.104Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\4k1s\\WS\\PWS_Lab3_v3\\PWS_Lab3\\PWS_Lab3\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "PWS_Lab3\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\4k1s\\WS\\PWS_Lab3_v3\\PWS_Lab3\\PWS_Lab3\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "PWS_Lab3\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAOsAAAAAAAAAAAAwwO4AAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-17T08:32:14.036Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\4k1s\\WS\\PWS_Lab3_v3\\PWS_Lab3\\PWS_Lab3\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "PWS_Lab3\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\4k1s\\WS\\PWS_Lab3_v3\\PWS_Lab3\\PWS_Lab3\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "PWS_Lab3\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T07:37:25.215Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Student.cs",
+              "DocumentMoniker": "D:\\4k1s\\WS\\PWS_Lab3_v3\\PWS_Lab3\\PWS_Lab3\\Student.cs",
+              "RelativeDocumentMoniker": "PWS_Lab3\\Student.cs",
+              "ToolTip": "D:\\4k1s\\WS\\PWS_Lab3_v3\\PWS_Lab3\\PWS_Lab3\\Student.cs",
+              "RelativeToolTip": "PWS_Lab3\\Student.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T07:37:15.982Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "StudentController.cs",
+              "DocumentMoniker": "D:\\4k1s\\WS\\PWS_Lab3_v3\\PWS_Lab3\\PWS_Lab3\\Controllers\\StudentController.cs",
+              "RelativeDocumentMoniker": "PWS_Lab3\\Controllers\\StudentController.cs",
+              "ToolTip": "D:\\4k1s\\WS\\PWS_Lab3_v3\\PWS_Lab3\\PWS_Lab3\\Controllers\\StudentController.cs",
+              "RelativeToolTip": "PWS_Lab3\\Controllers\\StudentController.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAAwCABAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T07:31:25.007Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PWS_Lab3",
+              "DocumentMoniker": "D:\\4k1s\\WS\\PWS_Lab3_v3\\PWS_Lab3\\PWS_Lab3\\PWS_Lab3.csproj",
+              "RelativeDocumentMoniker": "PWS_Lab3\\PWS_Lab3.csproj",
+              "ToolTip": "D:\\4k1s\\WS\\PWS_Lab3_v3\\PWS_Lab3\\PWS_Lab3\\PWS_Lab3.csproj",
+              "RelativeToolTip": "PWS_Lab3\\PWS_Lab3.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-09-17T07:30:54.552Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Model3.edmx [Diagram1]",
+              "DocumentMoniker": "D:\\4k1s\\WS\\PWS_Lab3_v3\\PWS_Lab3\\PWS_Lab3\\Model3.edmx",
+              "RelativeDocumentMoniker": "PWS_Lab3\\Model3.edmx",
+              "ToolTip": "D:\\4k1s\\WS\\PWS_Lab3_v3\\PWS_Lab3\\PWS_Lab3\\Model3.edmx [Diagram1]",
+              "RelativeToolTip": "PWS_Lab3\\Model3.edmx [Diagram1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
+              "WhenOpened": "2024-09-17T08:46:51.093Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ErrorController.cs",
+              "DocumentMoniker": "D:\\4k1s\\WS\\PWS_Lab3_v3\\PWS_Lab3\\PWS_Lab3\\Controllers\\ErrorController.cs",
+              "RelativeDocumentMoniker": "PWS_Lab3\\Controllers\\ErrorController.cs",
+              "ToolTip": "D:\\4k1s\\WS\\PWS_Lab3_v3\\PWS_Lab3\\PWS_Lab3\\Controllers\\ErrorController.cs",
+              "RelativeToolTip": "PWS_Lab3\\Controllers\\ErrorController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T07:37:26.632Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Model3.cs",
+              "DocumentMoniker": "D:\\4k1s\\WS\\PWS_Lab3_v3\\PWS_Lab3\\PWS_Lab3\\Model3.cs",
+              "RelativeDocumentMoniker": "PWS_Lab3\\Model3.cs",
+              "ToolTip": "D:\\4k1s\\WS\\PWS_Lab3_v3\\PWS_Lab3\\PWS_Lab3\\Model3.cs",
+              "RelativeToolTip": "PWS_Lab3\\Model3.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T07:37:14.979Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

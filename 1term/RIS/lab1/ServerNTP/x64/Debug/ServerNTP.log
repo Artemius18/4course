@@ -1,4 +1,4 @@
 ﻿  ServerNTP.cpp
-C:\Users\nikit\Desktop\univer\4k1sem\RIS\lab1\ServerNTP\ServerNTP.cpp(15,17): warning C4307: "*": переполнение целой константы со знаком
-C:\Users\nikit\Desktop\univer\4k1sem\RIS\lab1\ServerNTP\ServerNTP.cpp(28,21): warning C4309: =: усечение константного значения
-  ServerNTP.vcxproj -> C:\Users\nikit\Desktop\univer\4k1sem\RIS\lab1\x64\Debug\ServerNTP.exe
+E:\BSTU\4course\1term\RIS\lab1\ServerNTP\ServerNTP.cpp(15,17): warning C4307: "*": переполнение целой константы со знаком
+E:\BSTU\4course\1term\RIS\lab1\ServerNTP\ServerNTP.cpp(30,21): warning C4309: =: усечение константного значения
+  ServerNTP.vcxproj -> E:\BSTU\4course\1term\RIS\lab1\x64\Debug\ServerNTP.exe

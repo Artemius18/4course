@@ -15,7 +15,7 @@ int main()
 
     SYSTEMTIME timeCheck;
     string ipServer = "127.0.0.1";
-    int Tc = 1000;
+    int Tc = 14000;
     int Cc = 0;
     int averageCorrection[10];
 
